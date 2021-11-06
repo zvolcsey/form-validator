@@ -1,0 +1,26 @@
+{
+  "name": "form-validator",
+  "version": "1.0.0",
+  "description": "This repo contains a web page with a vanilla JS form validator. The form validator is implemented in TypeScript.",
+  "scripts": {
+    "build": "tsc && copyfiles -u 1 src/index.html src/style.css build",
+    "serve": "serve build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zvolcsey/form-validator.git"
+  },
+  "keywords": [
+    "form-validator"
+  ],
+  "author": "Zoltán Völcsey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zvolcsey/form-validator/issues"
+  },
+  "homepage": "https://github.com/zvolcsey/form-validator#readme",
+  "dependencies": {
+    "copyfiles": "^2.4.1",
+    "serve": "^13.0.2"
+  }
+}
